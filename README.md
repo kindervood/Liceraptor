@@ -6,10 +6,7 @@
 Чтобы запустить код, требуется:
 -установить python3
 загрузить библиотеки:
-DeepFace
-face_recognition
-imutils
-OpenCV
+DeepFace, face_recognition, imutils, OpenCV
 
 существует два варианты работы:
 
