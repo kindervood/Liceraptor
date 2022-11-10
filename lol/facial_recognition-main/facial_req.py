@@ -91,8 +91,7 @@ while True:
             # will select first entry in the dictionary)
             name = max(counts, key=counts.get)
 
-            #res = face_analyze(frame)
-
+            # res = face_analyze(frame)
 
             # If someone in your dataset is identified, print their name on the screen
             if currentname != name:
@@ -124,8 +123,9 @@ while True:
             res1 = res["dominant_emotion"]
             res2 = res["age"]
             print(res1, res2)
+            with open("base.txt", "w") as file:
+                file.write(currentname + "\t" + res1 + "\t" + str(res2))
             time.sleep(3)
-
 
     # update the FPS counter
     fps.update()
