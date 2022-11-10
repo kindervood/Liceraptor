@@ -4,11 +4,14 @@
 в режиме онлайн подстраиваться под клиента, анализруяя его реакцию. Таким образом проект улучшает качество предоставляемых услуг.
 
 Чтобы запустить код, требуется:
--установить python3
-	-загрузить библиотеки:
-		DeepFace
-		face_recognition
-		imutils
-		OpenCV
+	-установить python3
+		-загрузить библиотеки:
+			DeepFace
+			face_recognition
+			imutils
+			OpenCV
+	-запустить detect_mask_webcam.py в папке andrey
+	-запустить facial_req.py в папке lol
+
 
 
